@@ -1,0 +1,20 @@
+{
+  "name": "simple-store-fetch",
+  "version": "1.0.0",
+  "description": "simple store fetch page",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilterates/simple-store-fetch.git"
+  },
+  "author": "ilter ates",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilterates/simple-store-fetch/issues"
+  },
+  "homepage": "https://github.com/ilterates/simple-store-fetch#readme"
+}
