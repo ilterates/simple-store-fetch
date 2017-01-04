@@ -1,5 +1,5 @@
 <div ng-repeat="products in data">
   <img src="{{products.mainImage.ref}}" alt="">
   <h4> {{products.name}}</h4>
-  <p>  {{products.msrpInCents}}</p>
+  <p>{{products.msrpInCents | Dollars}}$</p>
 </div>
