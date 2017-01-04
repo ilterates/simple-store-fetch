@@ -1,5 +1,5 @@
 angular
-  .module("appRoutes", []).config(["$routeProvider", "#locationProvider",
+  .module('appRoutes', []).config(['$routeProvider', '$locationProvider',
 
   function($routeProvider, $locationProvider) {
     $routeProvider
@@ -9,6 +9,8 @@ angular
       as         : 'SiteCtrl'
     });
 
-  $locationProvider.html5Mode(true);
-
+    $locationProvider.html5Mode({
+    enabled: true,
+    requireBase: false
+  });
 }]);
