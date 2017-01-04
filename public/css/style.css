@@ -1,0 +1,26 @@
+.wrap {
+  display: flex;
+  flex-flow: row wrap;
+}
+.items, .image, .name, .price {
+  flex: 1 100%;
+}
+.items{
+ flex: 2 0px;
+
+}
+.items .image {
+  order: 1;
+}
+.items .name{
+  align-items: flex-end;
+  order: 2;
+}
+.items .price {
+  align-self: flex-end;
+  order: 3;
+}
+/**/
+.title-h1 {
+  text-align: center;
+}
