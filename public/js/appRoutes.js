@@ -4,10 +4,10 @@ angular
   function($routeProvider, $locationProvider) {
     $routeProvider
     .when('/', {
-      templateUrl: 'views/site.html',
+      templateUrl: 'views/page.html',
       controller : 'SiteController',
       as         : 'SiteCtrl'
-    });
+    }).otherwise({redirectTo: '/'});
 
     $locationProvider.html5Mode({
     enabled: true,
